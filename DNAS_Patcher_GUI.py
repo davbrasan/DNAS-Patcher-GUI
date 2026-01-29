@@ -74,10 +74,10 @@ def process_log_queue():
     try:
         while True:
             msg = log_queue.get_nowait()
-            log_text.config(state="normal")  # habilita para inserir
+            log_text.config(state="normal")  
             log_text.insert(tk.END, msg + "\n")
             log_text.see(tk.END)
-            log_text.config(state="disabled")  # desabilita para leitura apenas
+            log_text.config(state="disabled")  
     except queue.Empty:
         pass
     root.after(40, process_log_queue)
@@ -246,3 +246,4 @@ log_text.config(state="disabled")  # torna somente leitura
 # =========================
 root.after(40, process_log_queue)
 root.mainloop()
+
