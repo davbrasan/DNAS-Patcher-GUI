@@ -1,6 +1,6 @@
 # DNAS Patcher GUI
 
-The **DNAS Patcher GUI** is a graphical interface for the DNAS patcher, allowing you to modify **EERAM.BIN** files or ISOs conveniently, without using the command line.
+The **DNAS Patcher GUI** is a graphical interface for the DNAS patcher, allowing you to modify **eeMemory.bin** files or ISOs conveniently, without using the command line.
 
 ---
 
@@ -34,7 +34,7 @@ The **DNAS Patcher GUI** is a graphical interface for the DNAS patcher, allowing
  
 - **DNAS Patcher executable** (It can be found here: https://www.psx-place.com/resources/ps2-dnas-net-patcher.792/)
  
-- **PS2 Game ISO File** ou **EERAM.BIN** (It can be extracted from the PCSX2 emulator's savestate file using 7zip. To obtain the correct EERAM.BIN file, you must create a savestate when the `DNAS logo appears on the screen`.)
+- **PS2 Game ISO File** ou **eeMemory.bin** (It can be extracted from the PCSX2 emulator's savestate file using 7zip. To obtain the correct `eeMemory.bin` file, you must create a savestate when the `DNAS logo appears on the screen`.)
 
 - The program requests **administrator** permission to modify protected files.
 
@@ -48,9 +48,9 @@ The **DNAS Patcher GUI** is a graphical interface for the DNAS patcher, allowing
 
 3. Locate the executable `DNAS_PATCHER21.EXE` or equivalent.
 
-4. Locate the `ISO` or `EERAM.BIN` file.
+4. Locate the `ISO` or `eeMemory.bin` file.
 
-5. Choose the Operating Mode: (I recommend number `1` to patch the **ISO** and `5` to only scan the **EERAM.BIN** file.)
+5. Choose the Operating Mode: (I recommend number `1` to patch the **ISO** and `5` to only scan the **eeMemory.bin** file.)
 6. Click RUN.
 7. The application generates a log file containing the patch code.
 
