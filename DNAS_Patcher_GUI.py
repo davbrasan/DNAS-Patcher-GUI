@@ -241,9 +241,10 @@ lbl_log = ttk.Label(left_panel, text=t("log"))
 lbl_log.pack(anchor="w")
 log_text = scrolledtext.ScrolledText(left_panel, font=("Consolas", 10), height=15)
 log_text.pack(expand=True, fill="both")
-log_text.config(state="disabled")  # torna somente leitura
+log_text.config(state="disabled")  
 
 # =========================
 root.after(40, process_log_queue)
 root.mainloop()
+
 
