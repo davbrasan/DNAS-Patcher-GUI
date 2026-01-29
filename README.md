@@ -42,7 +42,7 @@ The **DNAS Patcher GUI** is a graphical interface for the DNAS patcher, allowing
 
 ## 🔹 How to use
 
-1. **Download the file** `DNAS_Patcher_GUI.py`or `DNAS_Patcher_GUI.py`.
+1. **Download the file** `DNAS_Patcher_GUI.py`or `DNAS_Patcher_GUI.exe`.
 
 2. Run it.
 
